@@ -2,7 +2,7 @@
 
 var cpr = require('../lib');
 var fs = require('fs');
-var minimist = require('minimist');
+var minimist = require("../pre-bundled/node_modules/minimist");
 
 var argv = minimist(process.argv.slice(2), {
     alias: { d:'delete-first', f:'filter', h:'help', o:'overwrite', v:'version' }
